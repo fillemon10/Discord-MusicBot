@@ -1,6 +1,6 @@
 FROM node:20 as builder
 
-RUN  npm ci \
+RUN  npm i \
      apt-get update -y && \
       apt-get install -y \
       build-essential \
