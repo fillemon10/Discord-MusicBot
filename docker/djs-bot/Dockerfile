@@ -1,7 +1,6 @@
 FROM node:20 as builder
 
-RUN  npm i \
-     apt-get update -y && \
+RUN  apt-get update -y && \
       apt-get install -y \
       build-essential \
       libpango1.0-dev \
